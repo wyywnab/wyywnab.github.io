@@ -8,8 +8,11 @@
   </div>
   <script type="text/javascript">
   onload=function(){
-    setInterval(go, 100);
+    //setInterval(go, 100);
+    await sleep(100);
+    top.location='http://jp-tyo-dvm.sakurafrp.com:39418/';
   };
+    /*
   var x=1; //利用了全局变量来执行
   function go(){
     x--;
@@ -18,6 +21,6 @@
     }else{
       location.href='http://jp-tyo-dvm.sakurafrp.com:39418/';
     }
-  }
+  }*/
   </script>
 </body>
